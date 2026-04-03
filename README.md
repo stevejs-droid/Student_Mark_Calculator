@@ -51,6 +51,7 @@ Student_Mark_Calculator/
 ---
 
 ## 🧮 How It Works
+
 Enter marks for each subject
 Click Calculate
 The app will display:
@@ -60,6 +61,7 @@ Percentage
 Grade
 
 ## 🎯 Grading System
+
 Average     Marks	Grade
 90+	          A+
 80–89	        A
@@ -69,12 +71,17 @@ Average     Marks	Grade
 Below 50	    F
 
 ## ⚠️ Note
+
 Marks must be between 0 and 100
 All fields must be filled before calculation
-👨‍💻 Author
 
-Steve J. Stephen
-B.Tech Computer Science Student
+## 👨‍💻 Author
+
+**Steve J. Stephen**  
+B.Tech Computer Science Student  
+
 ---
+
+⭐ If you like this project, give it a star on GitHub!
 
 ⭐ If you like this project, give it a star on GitHub!
