@@ -50,7 +50,7 @@ Student_Mark_Calculator/
 
 ---
 
-##🧮 How It Works
+## 🧮 How It Works
 Enter marks for each subject
 Click Calculate
 The app will display:
@@ -59,7 +59,7 @@ Average
 Percentage
 Grade
 
-##🎯 Grading System
+## 🎯 Grading System
 Average     Marks	Grade
 90+	          A+
 80–89	        A
@@ -68,7 +68,7 @@ Average     Marks	Grade
 50–59	        D
 Below 50	    F
 
-##⚠️ Note
+## ⚠️ Note
 Marks must be between 0 and 100
 All fields must be filled before calculation
 👨‍💻 Author
