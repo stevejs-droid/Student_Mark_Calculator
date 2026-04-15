@@ -1,26 +1,58 @@
-# 📊 Student Marks Calculator (Web App)
+# 🎓 Student Mark Calculator
 
-A simple and responsive web application built using **HTML, CSS, and JavaScript** to calculate student marks, total, average, percentage, and grade.
+A modern and responsive web app to calculate student marks, average, percentage, and grade instantly.
+
+🔗 Live Demo: https://stevejs-droid.github.io/Student_Mark_Calculator/
 
 ---
 
 ## 🚀 Features
 
-- Input marks for multiple subjects  
-- ➕ Calculates total marks  
-- 📈 Calculates average and percentage  
-- 🏆 Displays grade based on performance  
-- ⚠️ Input validation (0–100 marks only)  
-- 🔄 Reset button to clear inputs  
-- 📱 Responsive and clean UI  
+- 📥 Enter marks for 5 subjects
+- 📊 Calculates:
+  - Total Marks (out of 500)
+  - Average Marks
+  - Percentage
+  - Grade
+- 🧠 Grade System:
+  | Average Marks | Grade |
+  |--------------|-------|
+  | 90 and above | A+    |
+  | 80–89        | A     |
+  | 70–79        | B     |
+  | 60–69        | C     |
+  | 50–59        | D     |
+  | Below 50     | F     |
+- ⚠️ Input validation (0–100 per subject)
+- 🔄 Reset functionality
+- 🎨 Clean UI with responsive design
+
+---
+
+## 📌 Important Note
+
+- Maximum marks per subject = **100**
+- Total marks are calculated out of **500**
 
 ---
 
 ## 🛠️ Technologies Used
 
-- HTML5  
-- CSS3  
-- JavaScript  
+- HTML5
+- CSS3
+- JavaScript (Vanilla)
+
+---
+
+## ⚙️ How It Works
+
+1. Enter marks (0–100) for all 5 subjects  
+2. Click **Calculate**  
+3. The app displays:
+   - Total Marks (/500)
+   - Average
+   - Percentage
+   - Grade  
 
 ---
 
@@ -35,11 +67,6 @@ Student_Mark_Calculator/
 ```
 ---
 
-## 🌍 Live Demo
-
-👉 https://stevejs-droid.github.io/Student_Mark_Calculator/
-
----
 
 ## 📌 How to Run
 
@@ -51,38 +78,14 @@ Student_Mark_Calculator/
 
 ---
 
-## ⚙️ How It Works
+## 🚀 Future Improvements
 
-1. Enter marks for each subject  
-2. Click the **Calculate** button  
-3. The app displays:
-   - Total Marks  
-   - Average  
-   - Percentage  
-   - Grade  
+- 📊 Subject-wise grade display  
+- 📄 Download report as PDF  
+- 💾 Save results using Local Storage  
+- 🎯 Pass/Fail status  
 
-## 🏅 Grading System
-
-| Average Marks | Grade |
-|--------------|-------|
-| 90 and above | A+ |
-| 80–89        | A  |
-| 70–79        | B  |
-| 60–69        | C  |
-| 50–59        | D  |
-| Below 50     | F  |
-
-## ⚠️ Note
-
-Marks must be between 0 and 100
-All fields must be filled before calculation
-
-## 🚀 Future Scope
-
-- Add subject-wise grade display  
-- Add local storage support  
-- Add printable report  
-- Improve UI and animations
+---
 
 ## 👨‍💻 Author
 
