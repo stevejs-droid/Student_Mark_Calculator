@@ -1,18 +1,18 @@
 # 📊 Student Marks Calculator (Web App)
 
-A simple and responsive web application to calculate student marks, total, average, percentage, and grade.
+A simple and responsive web application built using **HTML, CSS, and JavaScript** to calculate student marks, total, average, percentage, and grade.
 
 ---
 
 ## 🚀 Features
 
-- 📥 Input marks for multiple subjects
-- ➕ Calculates total marks
-- 📊 Calculates average and percentage
-- 🏆 Displays grade based on performance
-- ⚠️ Input validation (0–100 marks)
-- 🔄 Reset button to clear inputs
-- 🎨 Clean and responsive UI
+- Input marks for multiple subjects  
+- ➕ Calculates total marks  
+- 📈 Calculates average and percentage  
+- 🏆 Displays grade based on performance  
+- ⚠️ Input validation (0–100 marks only)  
+- 🔄 Reset button to clear inputs  
+- 📱 Responsive and clean UI  
 
 ---
 
@@ -23,15 +23,16 @@ A simple and responsive web application to calculate student marks, total, avera
 - JavaScript  
 
 ---
+
 ## 📂 Project Structure
 
-
+```text
 Student_Mark_Calculator/
-│
 ├── index.html
 ├── style.css
 ├── script.js
 └── README.md
+```
 ---
 
 ## 🌍 Live Demo
@@ -50,30 +51,38 @@ Student_Mark_Calculator/
 
 ---
 
-## 🧮 How It Works
+## ⚙️ How It Works
 
-Enter marks for each subject
-Click Calculate
-The app will display:
-Total Marks
-Average
-Percentage
-Grade
+1. Enter marks for each subject  
+2. Click the **Calculate** button  
+3. The app displays:
+   - Total Marks  
+   - Average  
+   - Percentage  
+   - Grade  
 
-## 🎯 Grading System
+## 🏅 Grading System
 
-Average     Marks	Grade
-90+	          A+
-80–89	        A
-70–79	        B
-60–69	        C
-50–59	        D
-Below 50	    F
+| Average Marks | Grade |
+|--------------|-------|
+| 90 and above | A+ |
+| 80–89        | A  |
+| 70–79        | B  |
+| 60–69        | C  |
+| 50–59        | D  |
+| Below 50     | F  |
 
 ## ⚠️ Note
 
 Marks must be between 0 and 100
 All fields must be filled before calculation
+
+## 🚀 Future Scope
+
+- Add subject-wise grade display  
+- Add local storage support  
+- Add printable report  
+- Improve UI and animations
 
 ## 👨‍💻 Author
 
@@ -81,7 +90,5 @@ All fields must be filled before calculation
 B.Tech Computer Science Student  
 
 ---
-
-⭐ If you like this project, give it a star on GitHub!
 
 ⭐ If you like this project, give it a star on GitHub!
