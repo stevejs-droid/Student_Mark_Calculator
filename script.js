@@ -5,9 +5,7 @@ function calculateMarks() {
   let s4 = parseFloat(document.getElementById("sub4").value);
   let s5 = parseFloat(document.getElementById("sub5").value);
 
-  if (
-    isNaN(s1) || isNaN(s2) || isNaN(s3) || isNaN(s4) || isNaN(s5)
-  ) {
+  if (isNaN(s1) || isNaN(s2) || isNaN(s3) || isNaN(s4) || isNaN(s5)) {
     document.getElementById("message").innerText = "Please enter marks for all 5 subjects.";
     return;
   }
@@ -42,15 +40,15 @@ function calculateMarks() {
     grade = "F";
   }
 
-  document.getElementById("total").innerText = total;
+  document.getElementById("total").innerText = total + " / 500";
   document.getElementById("average").innerText = average.toFixed(2);
   document.getElementById("percentage").innerText = percentage.toFixed(2) + "%";
   document.getElementById("grade").innerText = grade;
-  document.getElementById("message").innerText = "Result calculated successfully.";
+  document.getElementById("message").innerText = "Result calculated (Max mark per subject = 100).";
 }
 
 function resetResult() {
-  document.getElementById("total").innerText = "0";
+  document.getElementById("total").innerText = "0 / 500";
   document.getElementById("average").innerText = "0";
   document.getElementById("percentage").innerText = "0%";
   document.getElementById("grade").innerText = "-";
